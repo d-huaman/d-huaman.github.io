@@ -128,19 +128,12 @@
         <div class="media-frame">
           <!-- TODO: MEDIA — reemplazar por el comparador real (imágenes antes/después) -->
           <div class="compare" data-compare>
-          <div class="compare-layer compare-after"></div>
-
-          <div
-            class="compare-layer compare-before"
-            data-compare-clip
-            style="
-              background-image: url('assets/media/comp-01-nube-puntos.jpg');
-              background-size: cover;
-              background-position: center;
-              background-repeat: no-repeat;
-            "
-          ></div>
-            
+            <div class="compare-layer compare-after">
+              <div class="compare-pattern compare-pattern--wire"></div>
+            </div>
+            <div class="compare-layer compare-before" data-compare-clip>
+              <img src="assets/media/comp-01-nube-puntos.jpg" alt="Nube de puntos escaneada" loading="lazy">
+            </div>
             <span class="compare-label compare-label--left">NUBE DE PUNTOS</span>
             <span class="compare-label compare-label--right">MODELO 3D</span>
             <div class="compare-handle" data-compare-handle></div>
