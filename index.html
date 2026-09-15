@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daniel Huamán Izquierdo — Ingeniería Civil &amp; BIM</title>
+<meta name="description" content="Daniel Huamán Izquierdo, Bachiller en Ingeniería Civil (PUCP). Anexo técnico de competencias BIM: modelado 3D, nubes de puntos, simulación 4D, automatización con Dynamo y gestión de datos.">
+
+<!--
+  ============================================================
+  Archivos del sitio: index.html + style.css + script.js (mismo directorio).
+  TODOs para Daniel antes de publicar (buscar cada etiqueta en este archivo):
+  1) "TODO: CV"       -> reemplazar el href del botón de CV por el PDF real.
+  2) "TODO: LINKEDIN" -> reemplazar por tu URL real de LinkedIn.
+  3) "TODO: EMAIL"    -> reemplazar por tu correo real.
+  4) "TODO: MEDIA"    -> reemplazar cada .media-frame por tu <img>/<video>/<iframe> real.
+     Cada media-frame ya tiene el tamaño y borde correctos: solo hay que
+     insertar el elemento real dentro y quitar el div .media-pattern.
+  ============================================================
+-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <span class="nav-mark"><strong>D. HUAMÁN</strong> · ING. CIVIL / BIM</span>
+    <ul class="nav-links">
+      <li><a href="#inicio">Inicio</a></li>
+      <li class="sep">·</li>
+      <li><a href="#competencias">Competencias</a></li>
+      <li class="sep">·</li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main id="contenido">
+
+  <!-- ================= HERO ================= -->
+  <header id="inicio" class="wrap hero">
+    <div>
+      <div class="hero-eyebrow">Anexo técnico de currículum</div>
+      <h1>Daniel Huamán Izquierdo</h1>
+      <p class="hero-subtitle">Bachiller en Ingeniería Civil — PUCP</p>
+      <p class="hero-summary">
+        Bachiller en Ingeniería Civil de la Pontificia Universidad Católica del Perú.
+        Orientado a la implementación de la metodología BIM, estandarización de
+        procesos de modelado, integración de datos para control de obra y
+        automatización de presupuestos.
+      </p>
+      <div class="hero-cta">
+        <a href="#competencias" class="btn btn--primary">Ver competencias</a>
+        <a href="#contacto" class="btn btn--ghost">Contacto</a>
+      </div>
+    </div>
+
+    <svg class="hero-graphic" viewBox="0 0 480 440" aria-hidden="true">
+      <line class="tri-line" x1="95" y1="130" x2="300" y2="70"/>
+      <line class="tri-line" x1="300" y1="70" x2="385" y2="290"/>
+      <line class="tri-line" x1="385" y1="290" x2="95" y2="130"/>
+      <line class="tri-line" x1="95" y1="130" x2="210" y2="350"/>
+      <line class="tri-line" x1="210" y1="350" x2="385" y2="290"/>
+      <line class="tri-line" x1="210" y1="350" x2="300" y2="70"/>
+
+      <!-- targets tipo dianas de registro -->
+      <g>
+        <circle class="target-ring" cx="95" cy="130" r="14"/>
+        <line class="target-cross" x1="80" y1="130" x2="110" y2="130"/>
+        <line class="target-cross" x1="95" y1="115" x2="95" y2="145"/>
+        <circle class="target-dot" cx="95" cy="130" r="2.4"/>
+      </g>
+      <g>
+        <circle class="target-ring" cx="300" cy="70" r="10"/>
+        <line class="target-cross" x1="288" y1="70" x2="312" y2="70"/>
+        <line class="target-cross" x1="300" y1="58" x2="300" y2="82"/>
+        <circle class="target-dot" cx="300" cy="70" r="2"/>
+      </g>
+      <g>
+        <circle class="target-ring" cx="385" cy="290" r="16"/>
+        <line class="target-cross" x1="368" y1="290" x2="402" y2="290"/>
+        <line class="target-cross" x1="385" y1="273" x2="385" y2="307"/>
+        <circle class="target-dot" cx="385" cy="290" r="2.6"/>
+      </g>
+      <g>
+        <circle class="target-ring" cx="210" cy="350" r="11"/>
+        <line class="target-cross" x1="197" y1="350" x2="223" y2="350"/>
+        <line class="target-cross" x1="210" y1="337" x2="210" y2="363"/>
+        <circle class="target-dot" cx="210" cy="350" r="2.2"/>
+      </g>
+    </svg>
+  </header>
+
+  <!-- ================= COMPETENCIAS ================= -->
+  <section id="competencias" class="wrap section-intro">
+    <div class="plate"><span class="plate-sep"></span><strong>ÍNDICE</strong></div>
+    <h2>Competencias técnicas</h2>
+    <p>Cinco frentes de trabajo en los que he aplicado BIM de forma directa, con la
+      evidencia visual de cada uno. Cada bloque incluye una vista previa —
+      al hacer clic sobre ella se abre en grande.</p>
+  </section>
+
+  <div class="wrap blocks">
+
+    <!-- COMP-01 -->
+    <article class="block">
+      <div class="block-text">
+        <div class="plate"><strong>COMP-01</strong><span class="plate-sep"></span>Nubes de Puntos</div>
+        <h3>Modelado 3D a partir de Nubes de Puntos</h3>
+        <p>Desarrollo de modelos 3D en Revit desde nubes de puntos (.LAS) procesadas
+          en ReCap, aplicados al replanteo de estructuras existentes como base
+          para nuevos diseños y extracción de planos técnicos.</p>
+        <ul class="chips">
+          <li class="chip">Revit</li>
+          <li class="chip">ReCap</li>
+          <li class="chip">Nubes de Puntos</li>
+        </ul>
+      </div>
+      <div class="block-media">
+        <div class="media-frame">
+          <!-- TODO: MEDIA — reemplazar por el comparador real (imágenes antes/después) -->
+          <div class="compare" data-compare>
+            <div class="compare-layer compare-after"></div>
+            <div class="compare-layer compare-before" data-compare-clip></div>
+            <span class="compare-label compare-label--left">NUBE DE PUNTOS</span>
+            <span class="compare-label compare-label--right">MODELO 3D</span>
+            <div class="compare-handle" data-compare-handle></div>
+            <input type="range" class="compare-range" min="0" max="100" value="50" data-compare-range aria-label="Comparar nube de puntos y modelo 3D">
+          </div>
+          <button class="expand-btn" type="button" data-lightbox="cloud" aria-label="Ampliar">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 3H3v6M15 3h6v6M9 21H3v-6M15 21h6v-6"/></svg>
+          </button>
+        </div>
+      </div>
+    </article>
+
+    <!-- COMP-02 -->
+    <article class="block block--media-left">
+      <div class="block-media">
+        <div class="media-frame">
+          <!-- TODO: MEDIA — reemplazar por la galería real de vistas (acero, encofrados, estructuras) -->
+          <div class="media-pattern pattern-layers">
+            <div class="layer-stack">
+              <div class="layer-card"></div>
+              <div class="layer-card"></div>
+              <div class="layer-card"></div>
+            </div>
+          </div>
+          <span class="media-tag">GALERÍA · 3 VISTAS</span>
+          <button class="expand-btn" type="button" data-lightbox="layers" aria-label="Ampliar">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 3H3v6M15 3h6v6M9 21H3v-6M15 21h6v-6"/></svg>
+          </button>
+        </div>
+      </div>
+      <div class="block-text">
+        <div class="plate"><strong>COMP-02</strong><span class="plate-sep"></span>Modelado Multidisciplinario</div>
+        <h3>Modelado BIM 3D (Estructuras y Arquitectura)</h3>
+        <p>Modelado técnico de edificación e infraestructura civil. Representación
+          detallada e integrada de arquitectura, elementos estructurales,
+          encofrados y acero de refuerzo.</p>
+        <ul class="chips">
+          <li class="chip">Revit</li>
+          <li class="chip">Arquitectura</li>
+          <li class="chip">Estructuras</li>
+          <li class="chip">Acero &amp; Encofrados</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- COMP-03 -->
+    <article class="block">
+      <div class="block-text">
+        <div class="plate"><strong>COMP-03</strong><span class="plate-sep"></span>Simulación 4D</div>
+        <h3>Simulación 4D de Procesos Constructivos</h3>
+        <p>Simulación 4D en Navisworks para la planificación de secuencias
+          constructivas, incorporando la interacción entre estructuras
+          existentes, demoliciones, nuevas construcciones y la detección de
+          interferencias logísticas de obra.</p>
+        <ul class="chips">
+          <li class="chip">Navisworks</li>
+          <li class="chip">Simulación 4D</li>
+          <li class="chip">Secuencia Constructiva</li>
+          <li class="chip">Interferencias</li>
+        </ul>
+      </div>
+      <div class="block-media">
+        <div class="media-frame">
+          <!-- TODO: MEDIA — reemplazar por el video/gif en bucle real de la simulación -->
+          <div class="media-pattern pattern-timeline">
+            <div class="timeline-track">
+              <span class="timeline-tick" style="left:8%"></span>
+              <span class="timeline-tick" style="left:24%"></span>
+              <span class="timeline-tick" style="left:40%"></span>
+              <span class="timeline-tick" style="left:56%"></span>
+              <span class="timeline-tick" style="left:72%"></span>
+              <span class="timeline-tick" style="left:88%"></span>
+              <span class="timeline-now" style="left:56%">
+                <svg viewBox="0 0 10 10" fill="#fff"><polygon points="1,0 9,5 1,10"/></svg>
+              </span>
+            </div>
+          </div>
+          <span class="media-tag">VIDEO EN BUCLE</span>
+          <button class="expand-btn" type="button" data-lightbox="timeline" aria-label="Ampliar">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 3H3v6M15 3h6v6M9 21H3v-6M15 21h6v-6"/></svg>
+          </button>
+        </div>
+      </div>
+    </article>
+
+    <!-- COMP-04 -->
+    <article class="block block--media-left">
+      <div class="block-media">
+        <div class="media-frame">
+          <!-- TODO: MEDIA — reemplazar por la captura real del lienzo de Dynamo o el gif de ejecución -->
+          <div class="media-pattern pattern-nodes">
+            <svg viewBox="0 0 300 220" preserveAspectRatio="xMidYMid meet">
+              <line class="node-line" x1="40" y1="40" x2="120" y2="70"/>
+              <line class="node-line" x1="40" y1="120" x2="120" y2="70"/>
+              <line class="node-line" x1="120" y1="70" x2="200" y2="50"/>
+              <line class="node-line" x1="120" y1="70" x2="200" y2="130"/>
+              <line class="node-line" x1="200" y1="50" x2="260" y2="90"/>
+              <line class="node-line" x1="200" y1="130" x2="260" y2="90"/>
+              <line class="node-line" x1="40" y1="180" x2="120" y2="150"/>
+              <line class="node-line" x1="120" y1="150" x2="200" y2="130"/>
+              <rect class="node-dot" x="26" y="26" width="28" height="28" rx="2"/>
+              <rect class="node-dot" x="26" y="106" width="28" height="28" rx="2"/>
+              <rect class="node-dot" x="26" y="166" width="28" height="28" rx="2"/>
+              <rect class="node-dot" x="106" y="56" width="28" height="28" rx="2"/>
+              <rect class="node-dot" x="106" y="136" width="28" height="28" rx="2"/>
+              <rect class="node-dot" x="186" y="36" width="28" height="28" rx="2"/>
+              <rect class="node-dot" x="186" y="116" width="28" height="28" rx="2"/>
+              <rect class="node-dot" x="246" y="76" width="28" height="28" rx="2"/>
+            </svg>
+          </div>
+          <span class="media-tag">SCRIPT · CAPTURA</span>
+          <button class="expand-btn" type="button" data-lightbox="nodes" aria-label="Ampliar">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 3H3v6M15 3h6v6M9 21H3v-6M15 21h6v-6"/></svg>
+          </button>
+        </div>
+      </div>
+      <div class="block-text">
+        <div class="plate"><strong>COMP-04</strong><span class="plate-sep"></span>Automatización</div>
+        <h3>Automatización de Procesos con Dynamo</h3>
+        <p>Desarrollo de rutinas para la asignación masiva de codificación,
+          parametrización de elementos y optimización de flujos para
+          extracción de metrados.</p>
+        <ul class="chips">
+          <li class="chip">Dynamo</li>
+          <li class="chip">Scripting</li>
+          <li class="chip">Parametrización</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- COMP-05 -->
+    <article class="block">
+      <div class="block-text">
+        <div class="plate"><strong>COMP-05</strong><span class="plate-sep"></span>Gestión de Datos</div>
+        <h3>Integración de Datos &amp; Paneles de Control (Power BI)</h3>
+        <p>Extracción de datos del modelo e integración en tableros de control
+          interactivos para visualización de métricas de obra y metrados.</p>
+        <ul class="chips">
+          <li class="chip">Power BI</li>
+          <li class="chip">Gestión de Datos</li>
+          <li class="chip">Control Visual</li>
+        </ul>
+      </div>
+      <div class="block-media">
+        <div class="media-frame">
+          <!-- TODO: MEDIA — reemplazar por el iframe real de Power BI (publicar en la Web) o una captura -->
+          <div class="media-pattern pattern-dashboard">
+            <span class="dash-ring"></span>
+            <span class="dash-bar" style="height:35%"></span>
+            <span class="dash-bar" style="height:55%"></span>
+            <span class="dash-bar" style="height:30%"></span>
+            <span class="dash-bar" style="height:70%"></span>
+            <span class="dash-bar" style="height:45%"></span>
+            <span class="dash-bar" style="height:60%"></span>
+          </div>
+          <span class="media-tag">DASHBOARD INTERACTIVO</span>
+          <button class="expand-btn" type="button" data-lightbox="dashboard" aria-label="Ampliar">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 3H3v6M15 3h6v6M9 21H3v-6M15 21h6v-6"/></svg>
+          </button>
+        </div>
+      </div>
+    </article>
+
+  </div>
+
+  <!-- ================= FOOTER / CONTACTO ================= -->
+  <footer id="contacto" class="wrap footer">
+    <div class="plate"><strong>FIN</strong><span class="plate-sep"></span>Contacto</div>
+    <h2 style="margin-top:16px;">Hablemos</h2>
+    <p>Si quieres el detalle de algún proyecto, el CV completo, o simplemente
+      conversar sobre BIM, aquí tienes tres formas directas de contactarme.</p>
+    <div class="footer-actions">
+      <!-- TODO: CV — reemplazar href por la ruta real del PDF -->
+      <a class="btn btn--primary" href="assets/cv-daniel-huaman-izquierdo.pdf" download>Descargar CV</a>
+      <!-- TODO: LINKEDIN — reemplazar por tu URL real -->
+      <a class="btn btn--ghost" href="https://www.linkedin.com/in/daniel-huaman-izquierdo" target="_blank" rel="noopener">Ver LinkedIn</a>
+      <!-- TODO: EMAIL — reemplazar por tu correo real -->
+      <a class="btn btn--ghost" href="mailto:correo@ejemplo.com">Escribir un correo</a>
+    </div>
+    <div class="footer-bottom">
+      <span>D. HUAMÁN IZQUIERDO — ING. CIVIL / BIM</span>
+      <span>LIMA, PERÚ</span>
+    </div>
+  </footer>
+
+</main>
+
+<!-- ================= LIGHTBOX ================= -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="lightbox-backdrop" data-close></div>
+  <div class="lightbox-panel" role="dialog" aria-modal="true" aria-labelledby="lightbox-title">
+    <div class="lightbox-media" id="lightbox-media">
+      <button class="lightbox-close" type="button" data-close aria-label="Cerrar">×</button>
+    </div>
+    <div class="lightbox-caption">
+      <div class="plate"><strong id="lightbox-code"></strong><span class="plate-sep"></span><span id="lightbox-type"></span></div>
+      <h3 id="lightbox-title"></h3>
+      <p id="lightbox-desc"></p>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
