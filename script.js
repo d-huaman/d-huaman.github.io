@@ -58,9 +58,12 @@
       desc:'Recorre las distintas vistas del modelo con las flechas.',
       pattern:'pattern-layers', media:'',
       gallery: [
-        { src:'assets/media/comp-02-vista-01.jpg', alt:'Arquitectura' },
-        { src:'assets/media/comp-02-vista-02.jpg', alt:'Estructura y encofrados' },
+        { src:'assets/media/comp-02-vista-01.jpg', alt:'General' },
+        { src:'assets/media/comp-02-vista-02.jpg', alt:'Estructura' },
         { src:'assets/media/comp-02-vista-03.jpg', alt:'Acero de refuerzo' }
+        { src:'assets/media/comp-02-vista-04.jpg', alt:'Encofrado' }
+        { src:'assets/media/comp-02-vista-05.jpg', alt:'Arquitectura' }
+        { src:'assets/media/comp-02-vista-06.jpg', alt:'Otros' }
         // Para sumar una vista más, agregá una línea igual a estas de arriba,
         // con una coma antes, por ejemplo:
         // , { src:'assets/media/comp-02-vista-04.jpg', alt:'Instalaciones' }
