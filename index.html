@@ -193,20 +193,10 @@
       </div>
       <div class="block-media">
         <div class="media-frame">
-          <!-- TODO: MEDIA — reemplazar por el video/gif en bucle real de la simulación -->
-          <div class="media-pattern pattern-timeline">
-            <div class="timeline-track">
-              <span class="timeline-tick" style="left:8%"></span>
-              <span class="timeline-tick" style="left:24%"></span>
-              <span class="timeline-tick" style="left:40%"></span>
-              <span class="timeline-tick" style="left:56%"></span>
-              <span class="timeline-tick" style="left:72%"></span>
-              <span class="timeline-tick" style="left:88%"></span>
-              <span class="timeline-now" style="left:56%">
-                <svg viewBox="0 0 10 10" fill="#fff"><polygon points="1,0 9,5 1,10"/></svg>
-              </span>
-            </div>
-          </div>
+          <!-- TODO: MEDIA — preview liviano (este archivo, en bucle): assets/media/comp-03-simulacion-4d-preview.mp4
+               El video completo (el del lightbox al ampliar) se maneja en
+               script.js, en data.timeline.media — no se toca acá. -->
+          <video src="assets/media/comp-03-simulacion-4d-preview.mp4" autoplay muted loop playsinline></video>
           <span class="media-tag">VIDEO EN BUCLE</span>
           <button class="expand-btn" type="button" data-lightbox="timeline" aria-label="Ampliar">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 3H3v6M15 3h6v6M9 21H3v-6M15 21h6v-6"/></svg>
