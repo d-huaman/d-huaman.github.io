@@ -56,7 +56,7 @@
   //   dashboard: media: '<img src="assets/media/comp-05-dashboard.png" alt="Dashboard de control en Power BI">'
   //              (o un <iframe> si usas la Opción A de Power BI — ver el TODO en index.html)
   var data = {
-    cloud:     { code:'COMP-01', type:'Comparador de imágenes', title:'Modelado 3D a partir de Nubes de Puntos', desc:'Aquí se mostrará el comparador ampliado nube de puntos (.LAS) vs. modelo 3D en Revit, o un video del recorrido de registro.', pattern:'', media:'' },
+    cloud:     { code:'COMP-01', type:'Comparador de imágenes', title:'Modelado 3D a partir de Nubes de Puntos', desc:'Aquí se mostrará el comparador ampliado nube de puntos (.LAS) vs. modelo 3D en Revit, o un video del recorrido de registro.', pattern:'', media:'<img src="assets/media/comp-01-nube-puntos.jpg" alt="Nube de puntos escaneada">' },
     layers:    { code:'COMP-02', type:'Galería de vistas 3D', title:'Modelado BIM 3D (Estructuras y Arquitectura)', desc:'Aquí irá la galería con vistas de detalle: acero de refuerzo, encofrados y coordinación entre arquitectura y estructuras.', pattern:'pattern-layers', media:'' },
     timeline:  { code:'COMP-03', type:'Video en bucle', title:'Simulación 4D de Procesos Constructivos', desc:'Aquí se incrustará el video de la simulación 4D en Navisworks, incluida la detección de interferencias logísticas de obra.', pattern:'pattern-timeline', media:'' },
     nodes:     { code:'COMP-04', type:'Captura en alta resolución', title:'Automatización de Procesos con Dynamo', desc:'Aquí irá la captura del lienzo de Dynamo o el gif de ejecución de la rutina de parametrización.', pattern:'pattern-nodes', media:'' },
