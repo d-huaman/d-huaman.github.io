@@ -150,10 +150,12 @@
     <article class="block block--media-left">
       <div class="block-media">
         <div class="media-frame">
-          <!-- TODO: MEDIA — preview liviano que se activa al pasar el mouse -->
-          <video src="assets/media/comp-03-simulacion-4d-preview.mp4" muted loop playsinline onmouseenter="this.play()" onmouseleave="this.pause()"></video>
-          <span class="media-tag">HOVER PARA REPRODUCIR</span>
-          <button class="expand-btn" type="button" data-lightbox="timeline" aria-label="Ampliar">
+          <!-- TODO: MEDIA — portada (la que ves en esta tarjeta): assets/media/comp-02-vista-01.jpg
+               La galería completa (la del lightbox al ampliar) NO se edita acá:
+               se maneja en script.js, en el array "gallery" de data.layers. -->
+          <img src="assets/media/comp-02-vista-01.jpg" alt="Vista general del modelo BIM" loading="lazy">
+          <span class="media-tag" id="comp02-count-tag">GALERÍA</span>
+          <button class="expand-btn" type="button" data-lightbox="layers" aria-label="Ampliar">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 3H3v6M15 3h6v6M9 21H3v-6M15 21h6v-6"/></svg>
           </button>
         </div>
@@ -191,11 +193,9 @@
       </div>
       <div class="block-media">
         <div class="media-frame">
-          <!-- TODO: MEDIA — preview liviano (este archivo, en bucle): assets/media/comp-03-simulacion-4d-preview.mp4
-               El video completo (el del lightbox al ampliar) se maneja en
-               script.js, en data.timeline.media — no se toca acá. -->
-          <video src="assets/media/comp-03-simulacion-4d-preview.mp4" autoplay muted loop playsinline></video>
-          <span class="media-tag">VIDEO EN BUCLE</span>
+          <!-- TODO: MEDIA — preview liviano que se activa al pasar el mouse -->
+          <video src="assets/media/comp-03-simulacion-4d-preview.mp4" muted loop playsinline onmouseenter="this.play()" onmouseleave="this.pause()"></video>
+          <span class="media-tag">HOVER PARA REPRODUCIR</span>
           <button class="expand-btn" type="button" data-lightbox="timeline" aria-label="Ampliar">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 3H3v6M15 3h6v6M9 21H3v-6M15 21h6v-6"/></svg>
           </button>
