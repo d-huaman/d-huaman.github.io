@@ -352,6 +352,14 @@
     object-fit:cover;
   }
 
+  /* El video del lightbox no debe recortarse como las fotos: se ajusta
+     completo dentro del marco (con barras negras si su proporción no es
+     exactamente 16:9), en vez de recortar los bordes con "cover". */
+  .lightbox-media video{
+    object-fit:contain;
+    background:#000;
+  }
+
   /* ---- generative media patterns (placeholders) ---- */
   .media-pattern{ position:absolute; inset:0; }
 
