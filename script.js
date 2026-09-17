@@ -66,7 +66,7 @@
         // , { src:'assets/media/comp-02-vista-04.jpg', alt:'Instalaciones' }
       ]
     },
-    timeline:  { code:'COMP-03', type:'Video en bucle', title:'Simulación 4D de Procesos Constructivos', desc:'Aquí se incrustará el video de la simulación 4D en Navisworks, incluida la detección de interferencias logísticas de obra.', pattern:'pattern-timeline', media:'' },
+    timeline:  { code:'COMP-03', type:'Video en bucle', title:'Simulación 4D de Procesos Constructivos', desc:'Aquí se incrustará el video de la simulación 4D en Navisworks, incluida la detección de interferencias logísticas de obra.', pattern:'pattern-timeline', media:'<video src="assets/media/comp-03-simulacion-4d.mp4" controls autoplay playsinline></video>' },
     nodes:     { code:'COMP-04', type:'Captura en alta resolución', title:'Automatización de Procesos con Dynamo', desc:'Aquí irá la captura del lienzo de Dynamo o el gif de ejecución de la rutina de parametrización.', pattern:'pattern-nodes', media:'' },
     dashboard: { code:'COMP-05', type:'Dashboard interactivo', title:'Integración de Datos & Paneles de Control (Power BI)', desc:'Aquí se incrustará el panel de Power BI en vivo (o una captura interactiva) con las métricas de obra y metrados.', pattern:'pattern-dashboard', media:'' }
   };
