@@ -150,15 +150,11 @@
     <article class="block block--media-left">
       <div class="block-media">
         <div class="media-frame">
-          <!-- TODO: MEDIA — reemplazar por la galería real de vistas (acero, encofrados, estructuras) -->
-          <div class="media-pattern pattern-layers">
-            <div class="layer-stack">
-              <div class="layer-card"></div>
-              <div class="layer-card"></div>
-              <div class="layer-card"></div>
-            </div>
-          </div>
-          <span class="media-tag">GALERÍA · 3 VISTAS</span>
+          <!-- TODO: MEDIA — portada (la que ves en esta tarjeta): assets/media/comp-02-vista-01.jpg
+               La galería completa (la del lightbox al ampliar) NO se edita acá:
+               se maneja en script.js, en el array "gallery" de data.layers. -->
+          <img src="assets/media/comp-02-vista-01.jpg" alt="Vista general del modelo BIM" loading="lazy">
+          <span class="media-tag" id="comp02-count-tag">GALERÍA</span>
           <button class="expand-btn" type="button" data-lightbox="layers" aria-label="Ampliar">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 3H3v6M15 3h6v6M9 21H3v-6M15 21h6v-6"/></svg>
           </button>
